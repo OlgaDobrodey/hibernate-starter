@@ -25,7 +25,7 @@ import java.util.List;
 @Inheritance(strategy = InheritanceType.JOINED)
 //@DiscriminatorColumn(name = "type") for SINGLE_TABLE
 //strategy = InheritanceType.TABLE_PER_CLASS - create 2 tables
-//strategy = InheritanceType.SINGLE_TABLE) - create 1 table with all columns added column "type"
+//!!!! better strategy = InheritanceType.SINGLE_TABLE) - create 1 table with all columns added column "type"
 //strategy = InheritanceType.JOINED -create 3 tables users, programmer, manager
 public abstract class User implements Comparable<User>, BaseEntity<Long> {
 
