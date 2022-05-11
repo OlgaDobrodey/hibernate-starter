@@ -4316,3 +4316,1486 @@ https://vladmihalcea.com/hypersistence-optimizer/
 [2022-05-10 13:01:38,308] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20156a50] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 [2022-05-10 13:01:38,363] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [2022-05-10 13:01:38,499] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:53744/test?loggerLevel=OFF]
+[2022-05-11 15:28:14,268] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:28:14,920] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:28:14,920] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:28:14,984] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:28:14,984] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:28:17,676] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:28:19,101] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:28:19,102] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:28:19,104] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:28:19,341] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:28:19,359] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:28:19,485] INFO [docker[postgres:13]: 422] Starting container with ID: b7e66ce9d71697322c9ca671aba9fc682f4d42d1017204ede5fde513d0e3386d
+[2022-05-11 15:28:20,277] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: b7e66ce9d71697322c9ca671aba9fc682f4d42d1017204ede5fde513d0e3386d
+[2022-05-11 15:28:21,670] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.3280919S
+[2022-05-11 15:28:21,780] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:28:22,049] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:28:22,638] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:28:22,800] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:28:22,810] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52784/test?loggerLevel=OFF]
+[2022-05-11 15:28:22,810] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:28:22,810] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:28:22,810] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:28:22,941] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:28:24,148] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@449c2ad5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:28:24,177] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,178] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users" does not exist, skipping
+[2022-05-11 15:28:24,181] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,182] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users" does not exist, skipping
+[2022-05-11 15:28:24,186] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,187] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "company_locale" does not exist, skipping
+[2022-05-11 15:28:24,190] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,191] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "profile" does not exist, skipping
+[2022-05-11 15:28:24,194] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,195] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 15:28:24,201] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,202] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 15:28:24,206] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,206] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "chat" does not exist, skipping
+[2022-05-11 15:28:24,209] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,211] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company" does not exist, skipping
+[2022-05-11 15:28:24,214] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,215] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company_locale" does not exist, skipping
+[2022-05-11 15:28:24,219] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,220] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "profile" does not exist, skipping
+[2022-05-11 15:28:24,225] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:28:24,226] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users_chat" does not exist, skipping
+[2022-05-11 15:28:24,236] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a24a13d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:28:24,344] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-11 15:28:24,576] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52784/test?loggerLevel=OFF]
+[2022-05-11 15:30:13,019] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:30:13,597] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:30:13,597] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:30:13,646] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:30:13,646] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:30:16,255] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:30:20,424] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:30:20,424] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:30:20,425] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:30:20,659] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:30:20,675] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:30:20,785] INFO [docker[postgres:13]: 422] Starting container with ID: 223c4bb3fc8fba1a94fec03f9b8e01c3f62e49c029050a0945e5554c5f415f1b
+[2022-05-11 15:30:21,611] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: 223c4bb3fc8fba1a94fec03f9b8e01c3f62e49c029050a0945e5554c5f415f1b
+[2022-05-11 15:30:22,825] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.1640541S
+[2022-05-11 15:30:22,909] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:30:23,133] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:30:23,653] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:30:23,805] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:30:23,805] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52808/test?loggerLevel=OFF]
+[2022-05-11 15:30:23,805] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:30:23,805] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:30:23,815] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:30:23,919] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:30:24,688] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52808/test?loggerLevel=OFF]
+[2022-05-11 15:32:42,591] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:32:42,904] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:32:43,405] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:32:43,567] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:43,567] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.checkManyToMany(HibernateRunnerTest.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:43,622] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:44,468] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:44,468] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.checkOrhanRemoval(HibernateRunnerTest.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:44,475] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:44,573] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:44,574] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.addUserToNewCompany(HibernateRunnerTest.java:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:44,581] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:44,697] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:44,699] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.getCompanyById(HibernateRunnerTest.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:44,707] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:44,818] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:44,820] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.checkLazyInitialisation(HibernateRunnerTest.java:152)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:44,825] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:44,911] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:44,912] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.checkOneToOne(HibernateRunnerTest.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:44,917] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:45,051] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:32:45,593] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:32:45,595] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:32:45,631] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:32:45,636] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:32:48,509] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:32:49,823] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:32:49,823] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:32:49,824] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:32:50,019] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:32:50,038] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:32:50,182] INFO [docker[postgres:13]: 422] Starting container with ID: f5c60cc86b259cd8a11ec79802855edbf40cbc8cb2a50c4c5e440919a465e116
+[2022-05-11 15:32:51,005] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: f5c60cc86b259cd8a11ec79802855edbf40cbc8cb2a50c4c5e440919a465e116
+[2022-05-11 15:32:52,213] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.1928136S
+[2022-05-11 15:32:52,231] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:32:52,231] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52838/test?loggerLevel=OFF]
+[2022-05-11 15:32:52,231] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:32:52,247] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:32:52,247] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:32:52,348] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:52,402] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52838/test?loggerLevel=OFF]
+[2022-05-11 15:32:52,450] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:52,450] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.deleteCompany(HibernateRunnerTest.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:52,450] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:52,517] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:52,518] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.localeInfo(HibernateRunnerTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:52,520] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:32:52,575] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 208] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2022-05-11 15:32:52,575] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 133] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at com.dmdev.util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
+	at com.dmdev.HibernateRunnerTest.oneToMany(HibernateRunnerTest.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[2022-05-11 15:32:52,575] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:34:15,291] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:34:15,955] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:34:15,960] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:34:16,025] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:34:16,035] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:34:18,723] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:34:19,982] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:34:19,983] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:34:19,985] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:34:20,244] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:34:20,260] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:34:20,380] INFO [docker[postgres:13]: 422] Starting container with ID: 007a60b7c9cc8e3370a7f74cdb647c831b6cfa41da562f7dcad30d7ffe8de41c
+[2022-05-11 15:34:21,218] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: 007a60b7c9cc8e3370a7f74cdb647c831b6cfa41da562f7dcad30d7ffe8de41c
+[2022-05-11 15:34:22,440] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.1948592S
+[2022-05-11 15:34:22,540] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:34:22,782] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:34:23,340] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:34:23,480] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:34:23,494] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52854/test?loggerLevel=OFF]
+[2022-05-11 15:34:23,495] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:34:23,495] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:34:23,499] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:34:23,610] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:34:24,560] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52854/test?loggerLevel=OFF]
+[2022-05-11 15:35:18,867] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:35:19,502] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:35:19,502] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:35:19,570] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:35:19,578] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:35:22,195] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:35:23,526] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:35:23,526] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:35:23,528] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:35:23,764] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:35:23,782] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:35:23,907] INFO [docker[postgres:13]: 422] Starting container with ID: 929735d0ef28e5c8577709e11e91f063c5d7756086b294fb9e917daffe73acf7
+[2022-05-11 15:35:24,702] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: 929735d0ef28e5c8577709e11e91f063c5d7756086b294fb9e917daffe73acf7
+[2022-05-11 15:35:25,948] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.1820795S
+[2022-05-11 15:35:26,037] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:35:26,332] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:35:27,017] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:35:27,244] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:35:27,252] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52869/test?loggerLevel=OFF]
+[2022-05-11 15:35:27,252] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:35:27,252] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:35:27,261] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:35:27,417] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:35:28,607] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4cf66ef0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:35:28,618] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,618] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "company_locale" does not exist, skipping
+[2022-05-11 15:35:28,621] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,621] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "manager" does not exist, skipping
+[2022-05-11 15:35:28,624] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,624] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "programmer" does not exist, skipping
+[2022-05-11 15:35:28,626] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,627] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 15:35:28,630] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,630] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "chat" does not exist, skipping
+[2022-05-11 15:35:28,632] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,632] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company" does not exist, skipping
+[2022-05-11 15:35:28,634] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,634] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company_locale" does not exist, skipping
+[2022-05-11 15:35:28,636] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,637] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "manager" does not exist, skipping
+[2022-05-11 15:35:28,640] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,640] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "profile" does not exist, skipping
+[2022-05-11 15:35:28,642] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,643] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "programmer" does not exist, skipping
+[2022-05-11 15:35:28,645] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,646] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users_chat" does not exist, skipping
+[2022-05-11 15:35:28,648] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:35:28,648] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] sequence "hibernate_sequence" does not exist, skipping
+[2022-05-11 15:35:28,651] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@54a01c11] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:35:28,718] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-11 15:35:28,940] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52869/test?loggerLevel=OFF]
+[2022-05-11 15:56:53,652] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 15:56:54,282] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 15:56:54,287] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 15:56:54,340] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 15:56:54,342] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 15:56:57,023] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 15:56:58,369] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 15:56:58,370] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 15:56:58,371] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 15:56:58,638] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 15:56:58,654] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 15:56:58,765] INFO [docker[postgres:13]: 422] Starting container with ID: 8e53c16a5be29df3ecf423de1500ff4cd9eabc44c1612a9cc1a2abb36408fc3e
+[2022-05-11 15:56:59,693] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: 8e53c16a5be29df3ecf423de1500ff4cd9eabc44c1612a9cc1a2abb36408fc3e
+[2022-05-11 15:57:00,906] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.2674045S
+[2022-05-11 15:57:01,002] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 15:57:01,240] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 15:57:01,743] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 15:57:01,876] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 15:57:01,893] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:52946/test?loggerLevel=OFF]
+[2022-05-11 15:57:01,893] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 15:57:01,893] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 15:57:01,893] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 15:57:01,995] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 15:57:03,088] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63319eed] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:57:03,106] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,107] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users" does not exist, skipping
+[2022-05-11 15:57:03,109] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,110] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users" does not exist, skipping
+[2022-05-11 15:57:03,113] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,114] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "company_locale" does not exist, skipping
+[2022-05-11 15:57:03,116] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,117] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "profile" does not exist, skipping
+[2022-05-11 15:57:03,120] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,121] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 15:57:03,123] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,124] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 15:57:03,127] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,127] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "chat" does not exist, skipping
+[2022-05-11 15:57:03,129] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,130] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company" does not exist, skipping
+[2022-05-11 15:57:03,132] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,133] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company_locale" does not exist, skipping
+[2022-05-11 15:57:03,135] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,136] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "profile" does not exist, skipping
+[2022-05-11 15:57:03,138] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,139] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users_chat" does not exist, skipping
+[2022-05-11 15:57:03,141] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 15:57:03,142] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] sequence "hibernate_sequence" does not exist, skipping
+[2022-05-11 15:57:03,146] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@958cb4d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 15:57:03,201] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-11 15:57:03,392] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:52946/test?loggerLevel=OFF]
+[2022-05-11 17:28:41,517] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 136] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2022-05-11 17:28:42,111] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 158] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2022-05-11 17:28:42,113] INFO [org.testcontainers.DockerClientFactory: 179] Docker host IP address is localhost
+[2022-05-11 17:28:42,159] INFO [org.testcontainers.DockerClientFactory: 191] Connected to docker: 
+  Server Version: 20.10.13
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 12670 MB
+[2022-05-11 17:28:42,164] INFO [org.testcontainers.utility.ImageNameSubstitutor: 50] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2022-05-11 17:28:44,790] INFO [org.testcontainers.utility.RegistryAuthLocator: 244] Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+[2022-05-11 17:28:46,225] INFO [org.testcontainers.DockerClientFactory: 209] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2022-05-11 17:28:46,226] INFO [org.testcontainers.DockerClientFactory: 220] Checking the system...
+[2022-05-11 17:28:46,227] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker server version should be at least 1.6.0
+[2022-05-11 17:28:46,441] INFO [org.testcontainers.DockerClientFactory: 294] ?? Docker environment should have more than 2GB free disk space
+[2022-05-11 17:28:46,456] INFO [docker[postgres:13]: 361] Creating container for image: postgres:13
+[2022-05-11 17:28:46,859] INFO [docker[postgres:13]: 422] Starting container with ID: cb4b6f96e7d64a769e9273b286260093e21c9b86156286ba3e2dfb4d2c6d35fc
+[2022-05-11 17:28:47,645] INFO [docker[postgres:13]: 426] Container postgres:13 is starting: cb4b6f96e7d64a769e9273b286260093e21c9b86156286ba3e2dfb4d2c6d35fc
+[2022-05-11 17:28:48,832] INFO [docker[postgres:13]: 501] Container postgres:13 started in PT2.3903845S
+[2022-05-11 17:28:48,926] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.6.Final
+[2022-05-11 17:28:49,166] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-11 17:28:49,674] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-11 17:28:49,817] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-11 17:28:49,824] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:53363/test?loggerLevel=OFF]
+[2022-05-11 17:28:49,825] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2022-05-11 17:28:49,826] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-11 17:28:49,829] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-11 17:28:49,935] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-11 17:28:51,057] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63d08122] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 17:28:51,062] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,062] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users" does not exist, skipping
+[2022-05-11 17:28:51,064] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,065] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users" does not exist, skipping
+[2022-05-11 17:28:51,067] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,068] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "company_locale" does not exist, skipping
+[2022-05-11 17:28:51,071] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,071] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "manager" does not exist, skipping
+[2022-05-11 17:28:51,074] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,074] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "profile" does not exist, skipping
+[2022-05-11 17:28:51,077] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,077] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "programmer" does not exist, skipping
+[2022-05-11 17:28:51,080] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,081] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 17:28:51,083] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,083] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2022-05-11 17:28:51,086] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,086] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "chat" does not exist, skipping
+[2022-05-11 17:28:51,089] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,089] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company" does not exist, skipping
+[2022-05-11 17:28:51,091] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,092] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company_locale" does not exist, skipping
+[2022-05-11 17:28:51,093] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,094] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "manager" does not exist, skipping
+[2022-05-11 17:28:51,096] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,096] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "profile" does not exist, skipping
+[2022-05-11 17:28:51,099] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,099] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "programmer" does not exist, skipping
+[2022-05-11 17:28:51,101] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2022-05-11 17:28:51,102] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users_chat" does not exist, skipping
+[2022-05-11 17:28:51,106] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2e93e323] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-11 17:28:51,168] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-11 17:28:51,355] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:53363/test?loggerLevel=OFF]
