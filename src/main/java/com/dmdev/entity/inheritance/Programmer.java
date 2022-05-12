@@ -1,20 +1,22 @@
-package com.dmdev.entity;
+package com.dmdev.entity.inheritance;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.dmdev.entity.*;
+import lombok.*;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.PrimaryKeyJoinColumn;
 import java.util.List;
 
 @Data
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 //@DiscriminatorValue(value = "programmer")
 @PrimaryKeyJoinColumn(name = "id")
-public class Programmer extends User {
+public class Programmer extends UserI {
 
     @Enumerated(EnumType.STRING)
     private Language language;

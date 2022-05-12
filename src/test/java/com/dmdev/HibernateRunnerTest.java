@@ -1,13 +1,18 @@
 package com.dmdev;
 
 import com.dmdev.entity.*;
+import com.dmdev.entity.inheritance.Manager;
+import com.dmdev.entity.inheritance.Programmer;
+import com.dmdev.entity.inheritance.UserI;
 import com.dmdev.util.HibernateTestUtil;
 import com.dmdev.util.HibernateUtil;
 import lombok.Cleanup;
 import org.hibernate.Hibernate;
+import org.hibernate.jpa.QueryHints;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.Column;
+import javax.persistence.FlushModeType;
 import javax.persistence.Table;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -16,13 +21,59 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.Instant;
 import java.util.Arrays;
 
 import static java.util.Optional.ofNullable;
 import static java.util.stream.Collectors.joining;
 
 class HibernateRunnerTest {
+
+    @Test
+    void checkHqlNamedQuery() {
+        try (var sessionFactory = HibernateTestUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.beginTransaction();
+
+            String name = "Ivan";
+            var result = session.createNamedQuery("findUserByName", User.class)
+                    .setParameter("firstname", name)
+                    .setParameter("companyName", "Google")
+                    .setFlushMode(FlushModeType.AUTO)
+                    .setHint(QueryHints.HINT_FETCH_SIZE,"50")
+                    .list();
+
+            var countRows = session.createQuery("update User u set u.role = 'ADMIN'")
+                    .executeUpdate();
+//            var nativeQuery = session.createNativeQuery("update User u set u.role = 'ADMIN' RETURN ",User.class).list();
+
+            session.createNativeQuery("select u.* from users u where u.firstname = 'Ivan'", User.class);
+            session.getTransaction().commit();
+        }
+    }
+
+    @Test
+    void checkHql() {
+        try (var sessionFactory = HibernateTestUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.beginTransaction();
+
+//            HQL / JPQL
+//            select u.* from users u where u.firstname = 'Ivan'
+            String name = "Ivan";
+            var result = session.createQuery(
+//                    "select u from User u where u.personalInfo.firstname = ?1", User.class)
+                            "select u from User u " +
+                                    "left join u.company c " +
+                                    "where u.personalInfo.firstname = :firstname and c.name = :companyName " +
+                                    "order by u.personalInfo.lastname desc", User.class)
+//                    .setParameter(1, name)
+                    .setParameter("firstname", name)
+                    .setParameter("companyName", "Google")
+                    .list();
+
+            session.getTransaction().commit();
+        }
+    }
 
     @Test
     void checkH2() {
@@ -53,7 +104,7 @@ class HibernateRunnerTest {
             session.clear();
 
             var programmer1 = session.get(Programmer.class, 1L);
-            var manager1 = session.get(User.class, 2L);
+            var manager1 = session.get(UserI.class, 2L);
             System.out.println();
 
             session.getTransaction().commit();

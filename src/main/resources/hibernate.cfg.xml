@@ -18,8 +18,11 @@
         <mapping class="com.dmdev.entity.Profile"/>
         <mapping class="com.dmdev.entity.Chat"/>
         <mapping class="com.dmdev.entity.UserChat"/>
-        <mapping class="com.dmdev.entity.Programmer"/>
-        <mapping class="com.dmdev.entity.Manager"/>
+        <mapping class="com.dmdev.entity.inheritance.Programmer"/>
+        <mapping class="com.dmdev.entity.inheritance.Manager"/>
+        <mapping class="com.dmdev.entity.Payment"/>
+        <mapping class="com.dmdev.entity.inheritance.UserI"/>
+
         <!-- DB schema will be updated if needed -->
 
     </session-factory>

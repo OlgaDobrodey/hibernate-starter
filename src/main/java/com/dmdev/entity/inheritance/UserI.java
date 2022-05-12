@@ -1,12 +1,8 @@
-package com.dmdev.entity;
+package com.dmdev.entity.inheritance;
 
+import com.dmdev.entity.*;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
@@ -14,22 +10,20 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.dmdev.util.StringUtils.SPACE;
-
-@NamedQuery(name = "findUserByName", query = "select u from User u " +
-        "left join u.company c " +
-        "where u.personalInfo.firstname = :firstname and c.name = :companyName " +
-        "order by u.personalInfo.lastname desc")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "username")
-@ToString(exclude = {"company", "profile", "userChats", "payments"})
-@Builder
+@ToString(exclude = {"company", "profile", "userChats"})
 @Entity
 @Table(name = "users", schema = "public")
 @TypeDef(name = "dmdev", typeClass = JsonBinaryType.class)
-public class User implements Comparable<User>, BaseEntity<Long> {
+@Inheritance(strategy = InheritanceType.JOINED)
+//@DiscriminatorColumn(name = "type") for SINGLE_TABLE
+//strategy = InheritanceType.TABLE_PER_CLASS - create 2 tables
+//!!!! better strategy = InheritanceType.SINGLE_TABLE - create 1 table with all columns added column "type"
+//strategy = InheritanceType.JOINED -create 3 tables users, programmer, manager
+public class UserI implements Comparable<UserI>, BaseEntity<Long> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -58,32 +52,12 @@ public class User implements Comparable<User>, BaseEntity<Long> {
     )
     private Profile profile;
 
-    @Builder.Default
+    //    @Builder.Default
     @OneToMany(mappedBy = "user")
     private List<UserChat> userChats = new ArrayList<>();
 
-    @Builder.Default
-    @OneToMany(mappedBy = "receiver")
-    private List<Payment> payments = new ArrayList<>();
-
     @Override
-    public int compareTo(User o) {
+    public int compareTo(UserI o) {
         return username.compareTo(o.username);
     }
-
-    public String fullName() {
-        return getPersonalInfo().getFirstname() + SPACE + getPersonalInfo().getLastname();
-    }
 }
-
-
-
-
-
-
-
-
-
-
-
-

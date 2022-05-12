@@ -1,22 +1,20 @@
-package com.dmdev.entity;
+package com.dmdev.entity.inheritance;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.dmdev.entity.*;
+import lombok.*;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 import java.util.List;
 
 @Data
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 //@DiscriminatorValue(value = "manager")
 @PrimaryKeyJoinColumn(name = "id")
-public class Manager extends User {
+public class Manager extends UserI {
 
     private String projectName;
 

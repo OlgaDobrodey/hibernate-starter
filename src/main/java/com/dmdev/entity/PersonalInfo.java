@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Embeddable;
 import java.io.Serial;
 import java.io.Serializable;
+import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
@@ -23,5 +24,5 @@ public class PersonalInfo implements Serializable {
     private String lastname;
 
     //    @Convert(converter = BirthdayConverter.class)
-    private Birthday birthDate;
+    private LocalDate birthDate;
 }
