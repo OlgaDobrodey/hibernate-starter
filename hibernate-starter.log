@@ -14725,3 +14725,131 @@ https://vladmihalcea.com/hypersistence-optimizer/
 [2022-05-12 18:52:04,295] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@413bef78] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 [2022-05-12 18:52:04,330] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [2022-05-12 18:52:04,575] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:06:09,902] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.7.Final
+[2022-05-12 19:06:10,197] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-12 19:06:10,702] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-12 19:06:10,905] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-12 19:06:10,911] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:06:10,912] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=postgres}
+[2022-05-12 19:06:10,912] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-12 19:06:10,915] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-12 19:06:11,134] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-12 19:06:12,213] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4dadd690] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-12 19:06:12,249] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-12 19:06:12,495] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:10:20,837] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.7.Final
+[2022-05-12 19:10:21,066] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-12 19:10:21,516] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-12 19:10:21,706] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-12 19:10:21,712] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:10:21,712] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=postgres}
+[2022-05-12 19:10:21,712] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-12 19:10:21,715] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-12 19:10:21,931] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-12 19:10:23,057] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68ddd415] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-12 19:10:23,103] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-12 19:10:23,378] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:12:18,835] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.7.Final
+[2022-05-12 19:12:19,089] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-12 19:12:19,559] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-12 19:12:19,760] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-12 19:12:19,765] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:12:19,765] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=postgres}
+[2022-05-12 19:12:19,766] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-12 19:12:19,771] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-12 19:12:19,994] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-12 19:12:21,109] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68ddd415] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-12 19:12:21,152] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-12 19:12:21,415] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:19:07,323] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.5.7.Final
+[2022-05-12 19:19:07,555] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2022-05-12 19:19:08,153] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-05-12 19:19:08,363] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2022-05-12 19:19:08,369] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/postgres]
+[2022-05-12 19:19:08,369] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=postgres}
+[2022-05-12 19:19:08,369] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2022-05-12 19:19:08,373] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2022-05-12 19:19:08,607] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2022-05-12 19:19:09,694] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@77429040] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2022-05-12 19:19:09,736] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-05-12 19:19:10,033] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/postgres]
