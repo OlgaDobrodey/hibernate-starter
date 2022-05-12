@@ -15,17 +15,23 @@ public class HibernateRunner {
              Session session = sessionFactory.openSession()) {
 //            TestDataImporter.importData(sessionFactory);
             session.beginTransaction();
+            session.enableFetchProfile("withCompanyAndPayment");
 
 //            var user = session.get(User.class, 1L);
 //            System.out.println(user.getPayments().size());
-////            System.out.println(user.getCompany().getName());
+//            System.out.println(user.getCompany().getName());
 //            var users = session.createQuery("select u from User u", User.class)
 //                    .list();
 //            users.forEach(user -> System.out.println(user.getPayments().size()));
+//            var users = session.createQuery(
+//                            "select u from User u " +
+//                                    "join fetch u.payments " +
+//                                    "join fetch u.company " +
+//                                    "where 1 = 1", User.class)
+//                    .list();
+
             var users = session.createQuery(
                             "select u from User u " +
-                                    "join fetch u.payments " +
-                                    "join fetch u.company " +
                                     "where 1 = 1", User.class)
                     .list();
             users.forEach(user -> System.out.println(user.getPayments().size()));

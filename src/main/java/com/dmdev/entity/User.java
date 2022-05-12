@@ -19,6 +19,14 @@ import java.util.List;
 
 import static com.dmdev.util.StringUtils.SPACE;
 
+@FetchProfile(name = "withCompanyAndPayment", fetchOverrides = {
+        @FetchProfile.FetchOverride(
+                entity = User.class, association = "company", mode = FetchMode.JOIN
+        ),
+        @FetchProfile.FetchOverride(
+                entity = User.class, association = "payments", mode = FetchMode.JOIN
+        )
+})
 @NamedQuery(name = "findUserByName", query = "select u from User u " +
         "left join u.company c " +
         "where u.personalInfo.firstname = :firstname and c.name = :companyName " +
@@ -68,7 +76,7 @@ public class User implements Comparable<User>, BaseEntity<Long> {
     @Builder.Default
 //    @BatchSize(size = 3)
 //    //    1 + N -> 1 + 5 -> 1 + 5/3 -> 3
-    @Fetch(FetchMode.SUBSELECT)
+//    @Fetch(FetchMode.SUBSELECT)
 //     1 + N -> 1 + 1 -> 2
     @OneToMany(mappedBy = "receiver")
     private List<Payment> payments = new ArrayList<>();
