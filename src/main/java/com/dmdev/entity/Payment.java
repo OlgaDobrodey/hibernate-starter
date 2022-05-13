@@ -13,7 +13,9 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Builder
 @Entity
-public class Payment implements BaseEntity<Long> {
+public class Payment extends AuditableEntity<Long>
+//        implements BaseEntity<Long>
+{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +27,6 @@ public class Payment implements BaseEntity<Long> {
     @ManyToOne(optional = false)
     @JoinColumn(name = "receiver_id")
     private User receiver;
+
 }
 
