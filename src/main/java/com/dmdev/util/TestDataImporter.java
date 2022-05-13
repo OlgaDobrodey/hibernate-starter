@@ -15,6 +15,7 @@ public class TestDataImporter {
 
     public void importData(SessionFactory sessionFactory) {
         @Cleanup Session session = sessionFactory.openSession();
+        session.beginTransaction();
 
         Company microsoft = saveCompany(session, "Microsoft");
         Company apple = saveCompany(session, "Apple");
@@ -57,6 +58,8 @@ public class TestDataImporter {
         addToChat(session, dmdev, billGates, steveJobs, sergeyBrin);
         addToChat(session, java, billGates, steveJobs, timCook, dianeGreene);
         addToChat(session, youtubeMembers, billGates, steveJobs, timCook, dianeGreene);
+
+        session.getTransaction().commit();
     }
 
     private void addToChat(Session session, Chat chat, User... users) {
