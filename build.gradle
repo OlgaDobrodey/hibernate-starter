@@ -16,6 +16,7 @@ java {
 
 dependencies {
     implementation 'org.hibernate:hibernate-core:5.5.7.Final'
+    implementation 'org.hibernate:hibernate-envers:5.5.7.Final'
     implementation 'org.jetbrains:annotations:20.1.0'
     runtimeOnly 'org.postgresql:postgresql:42.2.23.jre7'
     implementation 'com.vladmihalcea:hibernate-types-52:2.12.1'

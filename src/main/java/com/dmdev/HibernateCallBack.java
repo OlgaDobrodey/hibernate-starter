@@ -10,7 +10,10 @@ public class HibernateCallBack {
 
     public static void main(String[] args) {
         try (SessionFactory sessionFactory = HibernateUtil.buildSessionFactory();
-             Session session = sessionFactory.openSession()) {
+             Session session = sessionFactory
+//                     .withOptions()
+//                     .interceptor(new GlobalInterceptor())
+                     .openSession()) {
             TestDataImporter.importData(sessionFactory);
             session.beginTransaction();
 
