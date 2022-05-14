@@ -18,8 +18,6 @@ import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.TestInstance.Lifecycle.PER_CLASS;
 
-;
-
 @TestInstance(PER_CLASS)
 class UserDaoCriteriaTest {
 

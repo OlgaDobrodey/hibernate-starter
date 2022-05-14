@@ -1,10 +1,9 @@
 package com.dmdev.entity;
 
 import com.dmdev.listener.UserChatListener;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
 
@@ -15,7 +14,9 @@ import javax.persistence.*;
 @Entity
 @Table(name = "users_chat")
 @EntityListeners(value = {UserChatListener.class})
-public class UserChat extends AuditableEntity<Long>{
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+@EqualsAndHashCode(callSuper = false)
+public class UserChat extends AuditableEntity<Long> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,9 +1,7 @@
 package com.dmdev.dao;
 
 import com.dmdev.entity.Payment;
-import com.dmdev.entity.PersonalInfo_;
 import com.dmdev.entity.User;
-import com.dmdev.entity.User_;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.hibernate.Session;
@@ -13,6 +11,7 @@ import java.util.Optional;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class UserDaoCriteriaAPi {
+
     private static final UserDaoCriteriaAPi INSTANCE = new UserDaoCriteriaAPi();
 
     /**
@@ -51,8 +50,8 @@ public class UserDaoCriteriaAPi {
         var criteria = cb.createQuery(User.class);
         var user = criteria.from(User.class);
 
-        criteria.select(user).orderBy(cb.asc(user.get(User_.personalInfo)
-                .get(PersonalInfo_.birthDate)));
+//        criteria.select(user).orderBy(cb.asc(user.get(User_.personalInfo)
+//                .get(PersonalInfo_.birthDate)));
 
         return session.createQuery(criteria)
                 .setMaxResults(limit)

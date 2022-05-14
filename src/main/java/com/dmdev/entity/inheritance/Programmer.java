@@ -10,7 +10,7 @@ import javax.persistence.PrimaryKeyJoinColumn;
 import java.util.List;
 
 @Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
