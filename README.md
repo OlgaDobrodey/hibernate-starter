@@ -8,3 +8,5 @@ sql script is located in the root project dir: script.sql
 Validation.buildDefaultValidatorFactory(); var validator = validatorFactory.getValidator(); var validationResult =
 validator.validate(userDto); if (!validationResult.isEmpty()) { throw new ConstraintViolationException(validationResult)
 ; } var userEntity = userCreateMapper.mapFrom(userDto); return userRepository.save(userEntity).getId(); }
+
+MAPstruct - mapper
